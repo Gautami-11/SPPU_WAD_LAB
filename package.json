@@ -1,0 +1,20 @@
+{
+  "name": "sppu_wad_lab",
+  "version": "1.0.0",
+  "description": "Web Application Development Assignments of SPPU Third Year IT Syllabus (2019 pattern)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gautami-11/SPPU_WAD_LAB.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gautami-11/SPPU_WAD_LAB/issues"
+  },
+  "homepage": "https://github.com/Gautami-11/SPPU_WAD_LAB#readme"
+}
