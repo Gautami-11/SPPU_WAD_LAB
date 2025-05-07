@@ -19,3 +19,40 @@ Assignment No.	Problem Statement
 
 8. Create a simple Mobile Website using jQuery Mobile.
 
+FOR DOCKER
+🛠️ 1. Create Project Directory & Files
+
+mkdir demodocker
+cd demodocker
+touch index.html
+touch Dockerfile
+📝 2. Add Content to index.html
+
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+  <head><title>Demo</title></head>
+  <body><h1>Hello from Docker!</h1></body>
+</html>
+📝 3. Add Content to Dockerfile
+Dockerfile
+
+# Dockerfile
+FROM nginx:alpine
+COPY index.html /usr/share/nginx/html/index.html
+EXPOSE 80
+🐳 4. Build Docker Image
+
+
+docker build -t demodocker .
+▶️ 5. Run Docker Container (Foreground)
+
+docker run -p 8080:80 demodocker
+Or to run in background (detached):
+
+b
+docker run -d -p 8080:80 demodocker
+🌐 6. View in Browser
+Open:
+
+http://localhost:8080
